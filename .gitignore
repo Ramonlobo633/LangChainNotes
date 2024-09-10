@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de virtual environments (ambientes virtuais)
+venv/
+ENV/
+env/
+.venv/
+.pyenv/
+pip-wheel-metadata/
+
+# Distribuição / pacotes de build
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Arquivos de log de instalação do Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos criados pelo setuptools
+*.egg
+
+# Arquivos de cache de cobertura de testes
+.coverage
+.tox/
+.nox/
+
+# Arquivos de profile de execução
+*.pstats
+
+# Configuração de IDEs (opcional, dependendo da IDE que estiver usando)
+.idea/
+.vscode/
