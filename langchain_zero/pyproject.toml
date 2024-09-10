@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-zero"
+version = "0.1.0"
+description = ""
+authors = ["Ramonlobo633 <ramonlobo633@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.44.0"
+pytest = "^8.3.2"
+langchain = "^0.2.16"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.23"
+langchain-ollama = "^0.1.3"
+langchain-community = "^0.2.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
